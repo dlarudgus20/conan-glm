@@ -1,4 +1,4 @@
-# glm-conan
+# conan-glm
 
 [Conan](https://conan.io) package for [GLM Library](https://github.com/g-truc/glm).
 

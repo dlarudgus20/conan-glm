@@ -10,4 +10,5 @@ class glmConan(ConanFile):
         self.run("git clone https://github.com/g-truc/glm --branch 0.9.7.6 --depth 1")
 
     def package(self):
+        self.copy("FindGLM.cmake", ".", ".")
         self.copy("*", dst="include/glm", src="glm/glm")
